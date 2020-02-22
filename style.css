@@ -1,0 +1,110 @@
+body{
+    background-color: #fff;
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+section{
+ padding: 70px 50px;
+ height: 630px;
+}
+img{
+    width: 100%;
+}
+.half-width{
+    width:40%;
+    float: left;
+    margin-left:5%;
+    padding-left: 2%;
+}
+.text{
+    padding: 55px 0px;
+}
+h2{
+    font-size: 45px;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+}
+h1{
+    font-size: 60px;
+    color: #e82d9d;
+    margin: 18px 0;
+}
+p{
+    color: #827d7d;
+    padding-bottom: 30px;
+}
+.info-area{
+    background-image: url('images/header-bg.png');
+    background-position: center;
+}
+.link-button {
+    text-decoration: none;
+    background-image: linear-gradient(45deg, #ff7ad6, #e82d9d);
+    border-radius: 5px;
+    padding: 10px 20px;
+    color: #fff;
+    font-weight: 700;
+}
+.bio-area{
+    background-image: url('images/biography-bg.png');
+    background-position: center;
+}
+.latest-work{
+    background-image: url('images/latest-work-bg.png');
+    background-position: center;
+}
+.latest-work h2{
+    text-align: center;
+    padding-bottom: 40px;
+}
+.latest-work .single-work{
+    width: 31%;
+    margin: 2% 1%;
+    float: left;
+}
+.client-review-area{
+    background-image: url('images/footer-bg.png');
+    background-position: center;
+    text-align: center;
+}
+.client-review-area .single-client{
+    width:60%;
+    margin:20px auto;
+}
+.client-review-area h2{
+    padding-bottom: 50px;
+    font-size: 40px;
+}
+.client-review-area h6{
+    font-weight: 400;
+    color:gray;
+    padding: 5px 0;
+}
+
+.client-review-area p{
+    color: #000;
+    font-size: 20px;
+    line-height: 30px;
+}
+.client-review-area span{
+    display: block;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 12px 0px;
+}
+#massage-button {
+    font-size: 30px;
+    padding: 35px;
+}
+#massage-button a {
+    color:#fff;
+}
